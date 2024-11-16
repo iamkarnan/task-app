@@ -3,20 +3,21 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+body {
+  background-color: lightgrey;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+.status {
+  text-transform: capitalize;
+} 
+
+.menuItem {
+   text-transform: capitalize;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+
 
 @keyframes logo-spin {
   from {
